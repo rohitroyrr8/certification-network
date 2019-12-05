@@ -1,5 +1,5 @@
 # certification-network
-The education can utilise the feature set of blockchain to reduce the difficulties faced in the traditional certification process. By using hyperledger fabric network , you can set up a distributed between the education authority, employer and collleges or universities. Cerficatation details can be immutably stored and accessed from the blockchain by anyone in a permissioned way by any organization
+The education can utilise the feature set of blockchain to reduce the difficulties faced in the traditional certification process. By using hyperledger fabric network , you can set up a distributed between the education authority, employer and collleges or universities. Cerfication details can be immutably stored and accessed from the blockchain by anyone in a permissioned way by any organization
 
 ## Dependencies
 Install these prerequisites in your machine
