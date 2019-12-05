@@ -1,0 +1,4 @@
+/chaincode/node_modules
+/network/bin
+/network/crypto-config
+/network/channel/artifacts
