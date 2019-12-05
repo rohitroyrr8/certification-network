@@ -15,7 +15,8 @@ Install these prerequisites in your machine
 `git clone https://github.com/rohitroyrr8/certification-network`
 
 ## Step 2. Generate Crypto Materials & Crypto config files
-cd network
+`cd network`
+
 `./fabricNetwork generate`
 
 ## Step 3. Start the Fabric Nework
@@ -26,11 +27,14 @@ cd network
 
 ## Step 5. Invoke Smart contract functions 
 `docker ps -a`
+
 `docker exec -it chaicode /bin/bash`
+
 `npm start-dev`
 
 ----on another terminal
 `docker exec -it peer-container-id bash`
+
 `npm run start-dev`
 
 ## Step 6. Down the Fabric network
