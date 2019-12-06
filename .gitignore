@@ -2,4 +2,6 @@
 /chaincode/node_modules
 /network/bin
 /network/crypto-config
+/network/channel-artifacts
 /chaincode/package-lock.json
+/application/node_modules

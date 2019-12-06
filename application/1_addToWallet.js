@@ -42,7 +42,7 @@ async function main(certificatePath, privateKeyPath) {
 	}
 }
 
-main('/home/upgrad/workspace/certification-network/network/crypto-config/peerOrganizations/mhrd.certification-network.com/users/Admin@mhrd.certification-network.com/msp/signcerts/Admin@mhrd.certification-network.com-cert.pem', '/home/upgrad/workspace/certification-network/network/crypto-config/peerOrganizations/mhrd.certification-network.com/users/Admin@mhrd.certification-network.com/msp/keystore/69e13659643b75e6c9e31c682b029db75bcba598eefe63b6dbd214dd1e7e79b6_sk').then(() => {
+main('/home/byteprojects/workspace/certification-network/network/crypto-config/peerOrganizations/mhrd.certification-network.com/users/Admin@mhrd.certification-network.com/msp/signcerts/Admin@mhrd.certification-network.com-cert.pem', '/home/byteprojects/workspace/certification-network/network/crypto-config/peerOrganizations/mhrd.certification-network.com/users/Admin@mhrd.certification-network.com/msp/keystore/e612b046f748d647e28edd37743c0bad77a59986fa623779c58b06c432dba2f1_sk').then(() => {
   console.log('User identity added to wallet.');
 });
 

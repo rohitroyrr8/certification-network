@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "6fb2901d-41a6-414b-8fa8-cfa7279b1a0d",
+		"name": "certification-api-collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/verifyCertificate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\" : \"002\",\n\t\"courseId\" : \"1111\",\n\t\"hash\" : \"dsrctgr\"\n\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/verifyCertificate",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"verifyCertificate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/issueCertificate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\" : \"002\",\n\t\"courseId\" : \"1111\",\n\t\"grade\" : \"A+\",\n\t\"hash\" : \"dsrctgr\"\n\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/issueCertificate",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"issueCertificate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/newStudent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\" : \"002\",\n\t\"name\" : \"Rohit\",\n\t\"email\" : \"rohitroty@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/newStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"newStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/newStudent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\" : 002,\n\t\"name\" : \"Rohit\",\n\t\"email\" : \"rohitroty@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/newStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"newStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
